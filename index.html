@@ -3,27 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stytlsheet" href="css/bootsrap.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     
 	<title>APP4080 Project</title>
 </head>
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-dark text-light">  
     <nav class="navbar navbar-expand-lg bg-dark navbar-light"></nav>
     <div class="navbar-brand">
         <a href="#" class="navbar-brand navbar-dark">INTRODUCTION TO USING GIT</a>	
     </div>
-    <div class="container">
+    <div class="">
         This is our new project that we are working on
     </div> 
-    <div class="d-sm-flex">
+    <div class="">
             <p class="all ">
             
             <ul>
@@ -33,46 +29,17 @@
             </ul>
         </p>
         <div class="container">
-            <img src="dev.jpg" alt="" class="" height="450px" width="700px">
+        <!-- <img src="dev.jpg" alt="" class="img-fluid" height="450px" width="700px">
+            -->
         </div>
     </div>
-    
-    
-    <p class="person1">
-        
-        <span class="text-warning">Caesar Mwangi</span>
-        <div class="details">
-            I' am a software developer currently in USIU in my senior year. Ihave been writting
-            code for the last 6 years. I have been writing using the following languages
-        </div>
-            <ul>
-                <li>Python</li>
-                <li>Java</li>
-                <li>C++</li>
-            </ul>
-        
-    </p>
 
-    <div class="leadmy">
-        <p class="details">
-            <div>
-                    <span class="text-warning">William Munguti</span>
-            </div>   
-               I am a programmer with basic knowledge in web development and web applications.
-                I have an interest in Artifical intelligence and machine learning and I have 
-                    <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C++</li>
-
-                    </ul>
-            
-        </p>
-
-            </li>
-
-             <span class="text-warning">Collins Sambu</span>
-        <p class="details"></p>
+   <!-- Decided to create colums to be able to devide the page
+     and used padding to move the table to the center-->
+    <div class="row centered">
+        <div class="column" style="background-color:rgb(11, 219, 28);">
+          <h2><span class="text-warning">Collins Sambu</span></h2>
+          <p class="details text-center">
             My major is APT and my concentration is software engineering.
         </p>
             <ul>
@@ -80,9 +47,35 @@
                 <li>C++</li>
                 <li>JavaScript</li>
             </ul>
+            <img src="dev.jpg" alt="" class="img-fluid" height="450px" width="700px">
+        </div>
+        <div class="column" style="background-color:rgb(226, 7, 7);">
 
-            </li>
-        
-    </div>
+          <h2><span class="text-warning">William Munguti</span></h2>
+          <p class="text-align-right">I am a programmer with basic knowledge in web development and web applications.
+            I have an interest in Artifical intelligence and machine learning and I have 
+            </p>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>  
+            <img src="dev.jpg" alt="" class="img-fluid" height="450px" width="700px">
+
+        </div>
+        <div class="column" style="background-color:rgb(32, 9, 241);">
+          <h2><span class="text-warning">Caesar Mwangi</span></h2>
+          <p>I' am a software developer currently in USIU in my senior year. Ihave been writting
+            code for the last 6 years. I have been writing using the following languages
+        </p>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+        <img src="dev.jpg" alt="" class="img-fluid" height="450px" width="700px">
+    
+        </div>
+      </div>
 </body>
 </html>
